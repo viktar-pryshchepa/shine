@@ -1,0 +1,4 @@
+name = Shine main module
+description = Module for updates
+core = 7.x
+package = "Shine"

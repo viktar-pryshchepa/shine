@@ -1,0 +1,10 @@
+<?php
+
+/*
+ * Enables panels module.
+ */
+function shine_main_update_7000() {
+  if (!module_exists('panels')) {
+    module_enable(array('panels','panels_mini','panels_node','panels_ipe',), TRUE);
+  }
+}
